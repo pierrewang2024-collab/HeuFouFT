@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & models (downloaded / generated at runtime)
+datasets/
+pretrained_models/
+output/
+results/
+*.npy.tmp
+
+# NLTK downloads
+nltk_data/
+
+# Experiment artifacts
+*_candidate.npz
+_probe_tmp.npz
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
