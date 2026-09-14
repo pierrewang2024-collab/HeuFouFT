@@ -11,6 +11,12 @@ three meta-heuristic searches (**GA-SA**, **PSO**, **CS**) refine individual
 coordinates with task feedback, and a **Random Forest surrogate** screens
 candidates before they are evaluated with lightweight fine-tuning.
 
+## Method at a glance
+
+![HeuFouFT method overview](figures/teaser.png)
+
+*Top: FourierFT (left) places its 0.048M-parameter budget by rigid geometric rules — uniform grid or Gaussian annulus — without consulting the task; HeuFouFT (right) instead reads the heuristic intensity map and concentrates its 0.03M budget on the bright high-value peaks. A Random Forest surrogate screens candidate coordinate sets before they reach the LLM, and the LLM's task feedback closes the loop to update the map. Bottom: the three meta-heuristic searches compared — **GA-SA** uses evolutionary crossover / mutation with a simulated-annealing acceptance that cools from red to blue; **PSO** lets every particle be attracted by both its personal best and the swarm's global best, producing a fast collective convergence on mid-frequency peaks; **CS** uses Lévy flights to occasionally leap across the plane into sparse high-frequency regions that the other methods rarely visit. Same 0.03M budget, smarter placement → higher BLEU / NIST / METEOR / CIDEr than FourierFT and LoRA; a 37.5% smaller budget than LoCA yet stronger on four of five metrics.*
+
 ## Repository layout
 
 ```
