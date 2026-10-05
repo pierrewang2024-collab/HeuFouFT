@@ -1,4 +1,4 @@
-# HeuFouFT: Optimizing Fourier Fine-Tuning with Meta-Heuristic Frequency-Domain Sampling
+# HeuFouFT: Task-Guided Metaheuristic Coordinate Search for Fourier Fine-Tuning
 
 Official code release for the ICASSP 2027 submission *"Optimizing Fourier
 Fine-Tuning with Meta-Heuristic Frequency-Domain Sampling for
