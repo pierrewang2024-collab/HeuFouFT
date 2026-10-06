@@ -142,14 +142,17 @@ python src/spectrum_analysis.py --model gpt2-medium \
 
 ## Citation
 
-If you use this code, please cite the paper and the FourierFT origin work:
+If you use this code, please cite the paper:
 
 ```bibtex
-@inproceedings{gao2024fourierft,
-  title     = {Parameter-Efficient Fine-Tuning with Discrete Fourier Transform},
-  author    = {Gao, Ziqi and Wang, Qichao and Liu, Aochuan and Chen, Yuxin and Zhang, Zhenpeng and Li, Jie},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  year      = {2024}
+@misc{wang2026heufoufttaskguidedmetaheuristiccoordinate,
+      title={HeuFouFT: Task-Guided Metaheuristic Coordinate Search for Fourier Fine-Tuning}, 
+      author={Ruiheng Wang and Yubo Hou and Yakun Zhu and Tianle Shen and Tao Wan and Zengchang Qin},
+      year={2026},
+      eprint={2610.06437},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.06437}, 
 }
 ```
 
