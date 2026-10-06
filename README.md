@@ -4,6 +4,8 @@ Official code release for the ICASSP 2027 submission *"Optimizing Fourier
 Fine-Tuning with Meta-Heuristic Frequency-Domain Sampling for
 Parameter-Efficient LLM Adaptation"*.
 
+Our paper URL: https://arxiv.org/pdf/2610.06437
+
 HeuFouFT treats the selection of trainable Fourier coordinates in
 [FourierFT](https://arxiv.org/abs/2405.03003) as an explicit search problem:
 a block-level **heuristic intensity map** provides a task-informed prior,
